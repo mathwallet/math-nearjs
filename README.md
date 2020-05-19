@@ -28,7 +28,7 @@ window.nearWalletApi = new NearWalletApi();
 
 ```
 // login
-// returns { "name": "cc1", "accountId": "big.betanet", "publicKey":"ed25519:92xqjEF5bpUdHNcTwmoCRucsbHAtciAyyPDtZqr42T8B"}
+// returns { "name": "cc1", "accountId": "big.betanet", "publicKey":"ed25519:92xqjEF5bpUdHNcTwmoCRucsbHAtciAyyPDtZqr42T8B","permission":"FullAccess","network":"testnet"}
 const account = await window.nearWalletApi.login();
 
 // logout
