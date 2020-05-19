@@ -36,6 +36,7 @@ const account = await window.nearWalletApi.login();
 await window.nearWalletApi.logout();
 
 // Sign Transaction
+// Use MathWallet Signer
 import * as nearApi from 'near-api-js';
 const [hash, signedTransaction] = await nearApi.transactions.signTransaction(
         transaction,
